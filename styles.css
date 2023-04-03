@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', monospace, sans-serif;
+}
+
+/**:focus{
+    outline: none;
+}*/
+p {
+  font-size: 15px;
+}
+
