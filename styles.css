@@ -109,12 +109,32 @@ img{
     width: 15px;
   }
 
+  /*-------vertical-menu/ scrollbar--------*/
+
+
+  /*.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+  .vertical-menu a.active {
+    background-color: #acacac;
+    color: white;
+  }*/
+
   /*------------sidebar-------------*/
 
   .sidebar {
     background: #fff;
     width: 15%;
-    min-height: 100vh;
+    max-height: 100vh;
     position: absolute;
     top: 0;
     padding-left: 2%;
@@ -156,6 +176,11 @@ img{
      margin-top: 20px;
      margin-bottom: 20px;
   }
+
+  .sidebar::-webkit-scrollbar{
+    display: hidden;
+  }
+
 
   /*-----------subscribed-list------------*/
 
@@ -289,8 +314,19 @@ img{
 /*------copyright-------*/
 
 .copyright p {
-  font-size: 15px;
+  font-size: 14px;
   margin: 20px 0;
+  color: #5a5a5a;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+.copyright p1 {
+  font-size: 12px;
+  margin: 5px 0;
   color: #5a5a5a;
   display: flex;
   align-items: center;
@@ -298,7 +334,6 @@ img{
   width: fit-content;
   flex-wrap: wrap;
 }
-
 /*---------small screen Sidebar----------*/
 
 .small-sidebar {
@@ -318,6 +353,52 @@ img{
   margin-bottom: 25px;
 }
 
+/*---------filters-------------*/
+
+.filters{
+  position: fixed;
+  left: 250px;
+  top: 80px;
+  width: calc(100% - 250px);
+  height: 60px;
+  background: #fff;
+  padding: 10px 2%;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.filters::-webkit-scrollbar{
+  display: none;
+}
+
+.filter-options{
+  flex: 0 0 auto;
+  padding: 8px 20px;
+  border-radius: 50px;
+  background: #f0f0f0;
+  border: 1px solid #faf8f8db;
+  text-transform: capitalize;
+  margin-right: 10px;
+  color: #474646;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-options.active{
+  color:#f0f0f0; 
+  background: #242424;
+}
+
+.filter-options:hover {
+  background-color: #e1e1e1;
+}
+ 
 /*--------------------main------------------*/
 
 .container1 {
