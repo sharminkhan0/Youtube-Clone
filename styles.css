@@ -157,3 +157,36 @@ img{
      margin-bottom: 20px;
   }
 
+  /*-----------subscribed-list------------*/
+
+  .subscribed-list h3 {
+    font-size: 15px;
+    margin: 20px 0;
+    color: #5a5a5a;
+  }
+
+  .subscribed-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .subscribed-list a:hover {
+    background-color: #acacac;
+  }
+
+
+  .subscribed-list a img {
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     margin-right: 20px;
+  }
+
+  .subscribed-list a img:hover {
+    background-color: #acacac;
+  }
+
+
