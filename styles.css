@@ -189,4 +189,37 @@ img{
     background-color: #acacac;
   }
 
+  /*-----------explore-list------------*/
+
+
+  .explore-list h3 {
+    font-size: 15px;
+    margin: 20px 0;
+    color: #5a5a5a;
+  }
+
+  .explore-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .explore-list a:hover {
+    background-color: #acacac;
+  }
+
+
+  .explore-list a img {
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     margin-right: 20px;
+  }
+
+  .explore-list a img:hover {
+    background-color: #acacac;
+  }
+
 
