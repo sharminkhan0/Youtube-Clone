@@ -108,3 +108,52 @@ img{
   .nav-middle .search-box img {
     width: 15px;
   }
+
+  /*------------sidebar-------------*/
+
+  .sidebar {
+    background: #fff;
+    width: 15%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+  }
+
+  .shortcut-links a img {
+    width: 20px;
+    margin-right: 20px;
+  }
+
+  .shortcut-links a img:hover {
+    background-color: #acacac;
+  }
+
+  .shortcut-links a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+  }
+
+  .shortcut-links a:hover {
+    background-color: #acacac;
+  }
+
+  .shortcut-links a:first-child {
+    color: #100f0f;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .sidebar hr {
+     border: 0;
+     height: 1px;
+     background: #ccc;
+     width: 65%;
+     margin-top: 20px;
+     margin-bottom: 20px;
+  }
+
