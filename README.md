@@ -1,6 +1,6 @@
 # 📗 Table of Contents
 
-#📖 Capstone Project!
+ 📖 Capstone Project!
 This project is created according to the instructions from the pre-enrollment boot camp of Microverse, and The Odin Project's open-source curriculum. Further information can be found at both sites. The goal here is to create a replica of Youtube's clone page using HTML, CSS, and JS.
 
 🛠 Built With
