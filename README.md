@@ -10,7 +10,7 @@ This project is created according to the instructions from the pre-enrollment bo
 
 🚀 Live Demo
 
-     Live Demo Link
+  Live Demo Link
 
 Getting Started
 To get a local copy, run the fllowing command.
