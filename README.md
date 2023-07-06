@@ -24,7 +24,7 @@ Usage
 Run live server
 
 Authors
-👤 Author
+# 👤 Author
 
 GitHub: @Sharminkhan
 Twitter: @sharminakterkhan
